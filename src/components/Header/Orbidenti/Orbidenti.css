@@ -1,0 +1,18 @@
+.Orbidenti {
+    width: 100%;
+    height: auto;
+    text-align: right;
+    margin-top: 44px;
+}
+
+.Orbidenti img {
+    width: 76px;
+    height: auto;
+}
+
+@media (min-width: 576px) {
+    .Orbidenti img {
+        width: 100px;
+        height: auto;
+    }
+}

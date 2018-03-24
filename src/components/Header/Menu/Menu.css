@@ -1,0 +1,21 @@
+.Menu {
+    width: 30px;
+    height: 20px;
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    right: 15px;
+    top: 8px;
+}
+.Menu > div {
+    height: 4px;
+    width: 100%;
+    background-color: rgb(236, 105, 106);
+}
+
+@media (min-width: 576px) {
+    .Menu {
+        display: none;
+    }
+}

@@ -1,0 +1,8 @@
+@import '../assets/styles/variables.scss';
+
+body {
+  background: $cl-background;
+  color: $cl-black;
+  font-family: $font-primary;
+  font-weight: 700;
+}

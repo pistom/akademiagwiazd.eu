@@ -1,0 +1,17 @@
+.Info {
+    font-size: .8rem;
+    margin-top: 10px;
+    position: relative;
+}
+.Info p {
+    margin-bottom: 0;
+}
+
+@media (min-width: 576px) {
+    .Info {
+        margin-top: 0;
+        margin-left: 70px;
+        padding-top: 10px;
+        font-size: .9rem;
+    }
+}
