@@ -12,7 +12,33 @@
 
 @media (min-width: 576px) {
     .Orbidenti img {
-        width: 100px;
-        height: auto;
+        width: 90px;
+    }
+}
+
+@media (min-width: 768px) {
+    .Orbidenti {
+        margin-top: 70px;
+    }
+    .Orbidenti img {
+        width: 130px;
+    }
+}
+
+@media (min-width: 992px) {
+    .Orbidenti {
+        margin-top: 74px;
+    }
+    .Orbidenti img {
+        width: 160px;
+    }
+}
+
+@media (min-width: 1200px) {
+    .Orbidenti {
+        margin-top: 120px;
+    }
+    .Orbidenti img {
+        width: 180px;
     }
 }

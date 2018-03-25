@@ -1,6 +1,30 @@
 .Header {
-    margin-top: 8px;
+    padding-top: 8px;
 }
 .Header .right {
     position: relative;
+}
+
+@media (min-width: 576px) {
+    .Header {
+        padding-top: 16px;
+    }
+}
+
+@media (min-width: 768px) {
+    .Header {
+        padding-top: 24px;
+    }
+}
+
+@media (min-width: 992px) {
+    .Header {
+        padding-top: 32px;
+    }
+}
+
+@media (min-width: 1200px) {
+    .Header {
+        padding-top: 48px;
+    }
 }

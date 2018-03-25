@@ -1,21 +1,45 @@
-.Menu {
+.Menu, .Menu.White {
     width: 30px;
-    height: 20px;
+    height: 36px;
     position: absolute;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
     right: 15px;
-    top: 8px;
+    top: 0;
+    cursor: pointer;
+    padding: 4px 0;
 }
+
 .Menu > div {
     height: 4px;
     width: 100%;
     background-color: rgb(236, 105, 106);
 }
 
+@media (max-width: 575px) {
+    .Menu.White {
+        margin-top: 8px;
+        display: flex!important;
+    }
+
+    .Menu.White > div {
+        background-color: white;
+    }
+
+    .Menu.White > div:first-child {
+        transform: rotate(45deg) translate(12px, -2px);
+        width: 60%;
+    }
+
+    .Menu.White > div:last-child {
+        transform: rotate(-45deg) translate(12px, 2px);
+        width: 60%;
+    }
+}
+
 @media (min-width: 576px) {
     .Menu {
-        display: none;
+        display: none!important;
     }
 }

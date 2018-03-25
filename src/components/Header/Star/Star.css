@@ -11,6 +11,12 @@
     display: none;
 }
 
+.isInFixedHeader {
+    height: 40px!important;
+    width: 40px!important;
+    left: -50px!important;
+}
+
 @media (min-width: 576px) {
     .Star {
         height: 60px;
@@ -20,5 +26,33 @@
     }
     .hideOnMobile {
         display: block;
+    }
+}
+
+@media (min-width: 768px) {
+    .Star {
+        height: 90px;
+        width: 90px;
+        left: -100px;
+        top: 0;
+    }
+}
+
+@media (min-width: 992px) {
+    .Star {
+        height: 110px;
+        width: 110px;
+        left: -120px;
+        top: 0;
+        border-width: 3px;
+    }
+}
+
+@media (min-width: 1200px) {
+    .Star {
+        height: 135px;
+        width: 135px;
+        left: -160px;
+        top: 0;
     }
 }

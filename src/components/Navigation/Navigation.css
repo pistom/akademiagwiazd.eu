@@ -1,0 +1,88 @@
+.Navigation {
+    background-color: rgb(236, 105, 106)
+}
+
+.Navigation > div {
+    display: flex;
+    align-items: center;
+}
+
+.Navigation > div > a {
+    color: white;
+    font-size: .8rem;
+    display: block;
+    padding: 12px 3px 10px;
+    flex: 1 auto;
+    text-align: center;
+    line-height: 1rem;
+}
+@media (min-width: 768px) {
+    .Navigation > div > a {
+        text-transform: uppercase;
+    }
+}
+
+@media (min-width: 992px) {
+    .Navigation > div > a {
+        font-size: .9rem;
+    }
+}
+
+@media (min-width: 1200px) {
+    .Navigation > div > a {
+        font-size: 1.1rem;
+        padding: 18px 3px 14px;
+    }
+}
+
+.Navigation > div > a:hover {
+    background-color: white;
+    color: rgb(8, 10, 11);
+    text-decoration: none;
+}
+
+.Main.Fixed {
+    position: fixed;
+    width: 100%;
+}
+
+.Mobile > div > a {
+
+}
+
+@media (min-width: 576px) {
+    .Mobile {
+        display: none;
+    }
+    .Main.Fixed {
+        top: 50px;
+    }
+}
+
+@media (max-width: 575px) {
+    .Navigation {
+        display: none;
+    }
+    .Navigation.Mobile {
+        display: block;
+        transform: translateX(99.9%);
+        position: fixed;
+        top: 0;
+        right: 0;
+        z-index: 120;
+        height: 100vh;
+        width: 70%;
+        padding-top: 60px;
+        transition: transform .25s;
+    }
+    .Navigation.Mobile.isOpen {
+        transform: translateX(0);
+    }
+    .Navigation.Mobile > div {
+        display: block;
+    }
+    .Navigation.Mobile > div > a {
+        font-size: 1.2rem;
+        padding: 16px 4px;
+    }
+}

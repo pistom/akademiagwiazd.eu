@@ -18,4 +18,40 @@
         margin-left: 70px;
         height: 58px;
     }
+    .Logo.isInFixedHeader {
+        margin-left: 50px;
+        height: 45px;
+        font-size: 1.4rem;
+        line-height: 2.8rem;
+    }
+    .Logo.isInFixedHeader span {
+        display: inline-block;
+        margin-right: 4px;
+
+    }
 }
+
+@media (min-width: 768px) {
+    .Logo {
+        font-size: 3rem;
+        margin-left: 100px;
+        height: 88px;
+    }
+}
+
+@media (min-width: 992px) {
+    .Logo {
+        font-size: 3.6rem;
+        margin-left: 120px;
+        height: 108px;
+    }
+}
+
+@media (min-width: 1200px) {
+    .Logo {
+        font-size: 4.4rem;
+        margin-left: 160px;
+        height: 133px;
+    }
+}
+
