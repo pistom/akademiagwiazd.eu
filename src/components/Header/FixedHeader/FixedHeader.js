@@ -2,7 +2,8 @@ import React from 'react';
 import grid from 'bootstrap/dist/css/bootstrap-grid.min.css';
 import c from './FixedHeader.css';
 import Logo from '../Logo/Logo';
-import Menu from '../Menu/Menu'
+import Menu from '../Menu/Menu';
+import getPageHeight from '../../Pages/getPageHeight';
 
 class FixedHeader extends React.Component {
 
@@ -30,7 +31,8 @@ class FixedHeader extends React.Component {
     } else if (windowsWidth > 576) {
       offsetY = 160;
     }
-    this.setState({offsetY})
+    this.setState({offsetY});
+    getPageHeight();
   };
 
   componentDidMount() {

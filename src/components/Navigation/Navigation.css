@@ -16,6 +16,12 @@
     text-align: center;
     line-height: 1rem;
 }
+
+.Navigation > div > a.active {
+    background-color: white;
+    color: rgb(8, 10, 11);
+}
+
 @media (min-width: 768px) {
     .Navigation > div > a {
         text-transform: uppercase;
@@ -44,6 +50,7 @@
 .Main.Fixed {
     position: fixed;
     width: 100%;
+    z-index: 99;
 }
 
 .Mobile > div > a {

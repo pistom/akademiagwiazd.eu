@@ -1,9 +1,40 @@
 @import '../assets/styles/variables.scss';
 
 body {
-  background: $cl-background;
+  background: $cl-white;
   color: $cl-black;
   font-family: $font-primary;
   font-weight: 700;
   overflow-x: hidden;
+}
+
+#root {
+  background-color: $cl-background;
+  overflow: hidden;
+  main {
+    padding-bottom: 40px;
+  }
+}
+
+.switch-wrapper {
+  position: relative;
+  transition: height .5s
+}
+
+.switch-wrapper > div {
+  width: 100%;
+  position: absolute;
+}
+
+.pageTitle {
+  border-bottom: 2px solid white;
+  margin-bottom: 20px;
+}
+
+@media (min-width: 992px) {
+  .pageTitle {
+    margin-top: 30px;
+    font-size: 1.2rem;
+    border-width: 3px;
+  }
 }

@@ -1,0 +1,18 @@
+.Speaker {
+    margin-bottom: 30px;
+}
+.Speaker .Foto {
+    height: 150px;
+    width: 150px;
+    border: 2px solid white;
+}
+.Speaker .Foto img {
+    height: 100%;
+    width: 100%;
+}
+
+@media (min-width: 992px) {
+    .Speaker .Foto {
+        border-width: 3px;
+    }
+}

@@ -1,0 +1,84 @@
+.Footer {
+    background-color: white;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    position: absolute;
+    padding-bottom: 20px;
+}
+
+.Content {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    width: 90%;
+}
+
+@media (min-width: 576px) {
+    .Content {
+        width: 540px;
+    }
+}
+
+@media (min-width: 768px) {
+    .Content {
+        width: 600px;
+    }
+}
+
+@media (min-width: 992px) {
+    .Content {
+        justify-content: flex-start;
+        width: 960px
+    }
+}
+
+@media (min-width: 1200px) {
+    .Content {
+        width: 1140px;
+    }
+}
+
+.Content > * {
+    margin-right: 20px;
+}
+
+.Footer h4 {
+    text-transform: uppercase;
+    font-size: .8em;
+}
+
+@media (min-width: 768px) {
+    .Content > * {
+        margin-right: 40px;
+    }
+}
+
+.Footer .Ppz {
+    margin-top: -30px;
+}
+
+.Footer .PpzInfo {
+    margin-top: 20px;
+}
+@media (min-width: 1200px) {
+    .Footer .PpzInfo {
+        margin-top: 50px;
+    }
+    .Footer .Ppz {
+        margin-top: -60px;
+    }
+}
+
+.Footer .Orbidenti {
+    margin-top: 10px;
+}
+
+.Footer .OrbidentiInfo {
+    margin-top: 20px;
+}
+@media (min-width: 1200px) {
+    .Footer .OrbidentiInfo  {
+        margin-top: 50px;
+    }
+}

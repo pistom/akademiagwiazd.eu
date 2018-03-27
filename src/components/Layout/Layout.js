@@ -1,6 +1,7 @@
 import React, {Fragment} from 'react';
 import Header from '../Header/Header';
 import Navigation from '../Navigation/Navigation';
+import Footer from '../Footer/Footer';
 import c from './Layout.css';
 
 class Layout extends React.Component {
@@ -48,7 +49,7 @@ class Layout extends React.Component {
     this.setState((prev, next) => {
       return {isOpenMenu: !prev.isOpenMenu}
     })
-  }
+  };
 
   render() {
     const menuIsFixed = this.state.menuIsFixed ? c.Fixed : null;
@@ -59,8 +60,8 @@ class Layout extends React.Component {
           <Navigation type="Main"/>
           <main className={menuIsFixed}>
             {this.props.children}
-            <div style={{height: "2000px"}}/>
           </main>
+          <Footer />
         </Fragment>
     )
   }
