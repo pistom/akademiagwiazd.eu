@@ -1,5 +1,7 @@
 import React, {Component} from 'react';
 import getPageHeight from "../getPageHeight";
+import g from 'bootstrap/dist/css/bootstrap-grid.min.css';
+import c from './Agenda.css';
 
 class Agenda extends Component {
   componentDidMount(){
@@ -10,14 +12,16 @@ class Agenda extends Component {
   }
 
   render() {
-    return [
-      <h1 key="h1" style={{textAlign: "center", marginTop: "40px"}}>
-        Program
-      </h1>,
-      <h3 key="h2" style={{textAlign: "center"}}>
-        Zapraszamy wkrótce <br/>
-      </h3>
-    ];
+    return (
+        <div className={c.Agenda}>
+          <div className={g.container}>
+            <h4 className="pageTitle">
+              Program
+            </h4>
+            <h1>Już niebawem :)</h1>
+          </div>
+        </div>
+    );
   }
 }
 

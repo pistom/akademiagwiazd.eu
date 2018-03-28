@@ -5,7 +5,7 @@
     width: 100%;
     border-bottom: 2px solid white;
     transition-property: transform, opacity;
-    transition-duration: .25s;
+    transition-duration: .15s;
     transition-timing-function: ease;
 }
 .Hide {

@@ -6,6 +6,7 @@
     position: relative;
     box-sizing: border-box;
     overflow: hidden;
+    cursor: pointer;
 }
 
 .Icon .Title {
@@ -25,6 +26,7 @@
     text-transform: uppercase;
     color: white;
     text-align: left;
+    font-size: .8rem;
 }
 .Icon:hover .Title {
     height: 120px;
@@ -38,6 +40,9 @@
 }
 
 @media (min-width: 576px) {
+    .Icon .Title {
+        font-size: 1rem;
+    }
     .Icon, .Icon:hover .Title {
         width: 150px;
         height: 150px;
@@ -49,6 +54,9 @@
 }
 
 @media (min-width: 992px) {
+    .Icon .Title {
+        font-size: .9rem;
+    }
     .Icon, .Icon:hover .Title {
         width: 130px;
         height: 130px;
@@ -58,6 +66,9 @@
 }
 
 @media (min-width: 1200px) {
+    .Icon .Title {
+        font-size: 1.15rem;
+    }
     .Icon, .Icon:hover .Title {
         width: 160px;
         height: 160px;

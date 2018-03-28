@@ -10,19 +10,19 @@ class MainPage extends Component {
   state = {
     "icons": [
       {id: 1, file: '01', title: 'Implanty i tkanki miękkie'},
-      {id: 2, file: '02', title: 'Implanty i tkanki miękkie'},
-      {id: 3, file: '03', title: 'Implanty i tkanki miękkie'},
-      {id: 4, file: '04', title: 'Implanty i tkanki miękkie'},
-      {id: 5, file: '05', title: 'Implanty i tkanki miękkie'},
-      {id: 6, file: '06', title: 'Implanty i tkanki miękkie'},
-      {id: 7, file: '04', title: 'Implanty i tkanki miękkie'},
-      {id: 8, file: '05', title: 'Implanty i tkanki miękkie'},
-      {id: 9, file: '06', title: 'Implanty i tkanki miękkie'},
-      {id: 10, file: '02', title: 'Implanty i tkanki miękkie'},
-      {id: 11, file: '03', title: 'Implanty i tkanki miękkie'},
-      {id: 12, file: '04', title: 'Implanty i tkanki miękkie'}
+      {id: 2, file: '02', title: 'DSD i ortodoncja'},
+      {id: 3, file: '03', title: 'Kompozyty'},
+      {id: 4, file: '04', title: 'Medycyna estetyczna'},
+      {id: 5, file: '05', title: 'Okluzja'},
+      {id: 6, file: '01', title: 'Implanty i tkanki miękkie'},
+      {id: 7, file: '04', title: 'Medycyna estetyczna'},
+      {id: 8, file: '05', title: 'Okluzja'},
+      {id: 9, file: '01', title: 'Implanty i tkanki miękkie'},
+      {id: 10, file: '02', title: 'DSD i ortodoncja'},
+      {id: 11, file: '03', title: 'Kompozyty'},
+      {id: 12, file: '04', title: 'Medycyna estetyczna'}
     ]
-  }
+  };
 
   componentDidMount() {
     getPageHeight();

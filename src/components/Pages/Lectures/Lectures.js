@@ -8,15 +8,15 @@ class Lectures extends Component {
 
   state = {
     lectures: [
-      {id: 1, name: "dr n. med. BARTOSZ CERKASKI", fot: null},
-      {id: 2, name: "DDS DDT IVAN RONALD HUANCA", fot: null},
-      {id: 3, name: "dr RADOSŁAW JADACH", fot: null},
-      {id: 4, name: "dr ALEKSANDER MAJ", fot: null},
-      {id: 5, name: "dr n. med. LIDIA MAJEWSKA", fot: null},
-      {id: 6, name: "dr hab. n. med. Piotr MAJEWSKI", fot: null},
-      {id: 7, name: "dr n.med. Michał TARNAWSKI", fot: 'tarnawski.jpg'},
-      {id: 8, name: "prof. dr hab. MAŁGORZATA PIETRUSKA", fot: null},
-      {id: 9, name: "dr hab. n. med. JAN PIETRUSKI", fot: null}
+      {id: 1, name: "dr n. med. BARTOSZ CERKASKI", fot: 'cerkaski.jpg'},
+      {id: 2, name: "DDS DDT IVAN RONALD HUANCA", fot: 'huanca.jpg'},
+      {id: 3, name: "dr RADOSŁAW JADACH", fot: 'jadach.jpg'},
+      {id: 4, name: "dr ALEKSANDER MAJ", fot: 'maj.jpg'},
+      {id: 5, name: "dr n. med. LIDIA MAJEWSKA", fot: 'majewska.jpg'},
+      {id: 6, name: "dr hab. n. med. PIOTR MAJEWSKI", fot: 'majewski.jpg'},
+      {id: 7, name: "dr n.med. MICHAŁ TARNAWSKI", fot: 'tarnawski.jpg'},
+      {id: 8, name: "prof. dr hab. MAŁGORZATA PIETRUSKA", fot: 'pietruska.jpg'},
+      {id: 9, name: "dr hab. n. med. JAN PIETRUSKI", fot: 'pietruski.jpg'}
     ]
   }
 
@@ -31,7 +31,7 @@ class Lectures extends Component {
     return (
         <div className={c.Lectures}>
           <div className={g.container}>
-            <h4 className="pageTitle">WYKŁADOWCY</h4>
+            <h4 className="pageTitle">Wykładowcy</h4>
             <div className={g.row}>
               {this.state.lectures.map(speaker => (
                   <Speaker key={speaker.id} name={speaker.name} fot={speaker.fot} />

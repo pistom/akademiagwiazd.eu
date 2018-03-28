@@ -11,7 +11,6 @@ class Speaker extends React.Component {
     if (this.props.fot) {
       import(`../../../../assets/images/speakers/${this.props.fot}`)
           .then(module => {
-            console.log(module);
             this.setState({fot: module})
           });
     }
