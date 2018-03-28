@@ -1,4 +1,8 @@
 .Lectures {
     margin-top: 20px;
-    margin-bottom: 100px;
+}
+@media (min-width: 576px) {
+    .Lectures {
+        margin-bottom: 200px;
+    }
 }

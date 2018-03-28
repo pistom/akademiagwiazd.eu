@@ -5,14 +5,166 @@
     height: 150px;
     width: 150px;
     border: 2px solid white;
+    position: relative;
+    cursor: pointer;
 }
 .Speaker .Foto img {
     height: 100%;
     width: 100%;
 }
 
+.Speaker p {
+    margin-bottom: 4px;
+}
+
+.SpeakerWrapper .Desc {
+    display: none;
+    position: fixed;
+    z-index: 200;
+    top: 20px;
+    right: 15px;
+    max-height: 95%;
+    left: 15px;
+    border: 3px solid white;
+    background-color: rgb(236, 105, 106);
+    padding: 12px;
+    color: white;
+    box-sizing: border-box;
+    margin: 0 -2px;
+    overflow: auto;
+}
+
+.SpeakerWrapper .Desc:after {
+    display: block;
+    position: absolute;
+    content: "×";
+    top: 0;
+    right: 15px;
+    font-size: 2rem;
+    cursor: pointer;
+}
+
+.SpeakerWrapper .Desc.Open {
+    display: block;
+}
+
+@media (min-width: 576px) {
+    .SpeakerWrapper .Desc:after {
+        display: none;
+    }
+    .SpeakerWrapper h4 {
+        height: 48px;
+    }
+    .SpeakerWrapper .Desc {
+        position: absolute;
+        z-index: 1;
+        top: auto;
+        margin-top:-2px;
+        width: 510px;
+        max-height: 200px;
+        left: 16px;
+        padding-top:30px;
+    }
+    .SpeakerWrapper .Desc:before {
+        content: "";
+        position: absolute;
+        top: 0;
+        left: 45px;
+        width: 0;
+        height: 0;
+        border-left: 30px solid transparent;
+        border-right: 30px solid transparent;
+        border-top: 25px solid white;
+    }
+    .SpeakerWrapper:nth-child(2n + 0) .Desc {
+        left: -254px;
+    }
+    .SpeakerWrapper:nth-child(2n + 0) .Desc:before {
+        left: 314px;
+    }
+}
+
+@media (min-width: 768px) {
+    .Speaker h4 {
+        height: 68px;
+        margin-top: 40px;
+    }
+
+    .SpeakerWrapper .Desc {
+        width: 690px;
+    }
+    .SpeakerWrapper:nth-child(3n - 2) .Desc {
+        left: 16px;
+    }
+    .SpeakerWrapper:nth-child(3n - 2) .Desc:before {
+        left: 45px;
+    }
+    .SpeakerWrapper:nth-child(3n - 1) .Desc {
+        left: -224px;
+    }
+    .SpeakerWrapper:nth-child(3n - 1) .Desc:before {
+        left: 284px;
+    }
+    .SpeakerWrapper:nth-child(3n + 0) .Desc {
+        left: -464px;
+    }
+    .SpeakerWrapper:nth-child(3n + 0) .Desc:before {
+        left: 524px;
+    }
+}
+
 @media (min-width: 992px) {
     .Speaker .Foto {
         border-width: 3px;
+    }
+    .Speaker h4 {
+        height: 38px;
+        margin-top: 10px;
+    }
+    .SpeakerWrapper .Desc {
+        width: 930px;
+        max-height: 238px;
+    }
+    .SpeakerWrapper:nth-child(3n - 2) .Desc {
+        left: 16px;
+    }
+    .SpeakerWrapper:nth-child(3n - 2) .Desc:before {
+        left: 45px;
+    }
+    .SpeakerWrapper:nth-child(3n - 1) .Desc {
+        left: -304px;
+    }
+    .SpeakerWrapper:nth-child(3n - 1) .Desc:before {
+        left: 364px;
+    }
+    .SpeakerWrapper:nth-child(3n + 0) .Desc {
+        left: -624px;
+    }
+    .SpeakerWrapper:nth-child(3n + 0) .Desc:before {
+        left: 684px;
+    }
+}
+
+@media (min-width: 1200px) {
+    .SpeakerWrapper .Desc {
+        width: 1110px;
+    }
+    .SpeakerWrapper:nth-child(3n - 2) .Desc {
+        left: 16px;
+    }
+    .SpeakerWrapper:nth-child(3n - 2) .Desc:before {
+        left: 45px;
+    }
+    .SpeakerWrapper:nth-child(3n - 1) .Desc {
+        left: -364px;
+    }
+    .SpeakerWrapper:nth-child(3n - 1) .Desc:before {
+        left: 424px;
+    }
+    .SpeakerWrapper:nth-child(3n + 0) .Desc {
+        left: -744px;
+    }
+    .SpeakerWrapper:nth-child(3n + 0) .Desc:before {
+        left: 804px;
     }
 }

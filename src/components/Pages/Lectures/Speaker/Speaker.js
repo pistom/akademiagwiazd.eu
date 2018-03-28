@@ -4,7 +4,8 @@ import c from './Speaker.css';
 
 class Speaker extends React.Component {
   state = {
-    fot: null
+    fot: null,
+    descOpen: false
   };
 
   componentDidMount() {
@@ -16,15 +17,26 @@ class Speaker extends React.Component {
     }
   }
 
+  speakerClickedHandler = (state) => {
+    this.setState({descOpen: state})
+  };
+
   render() {
+    const classes = (this.state.descOpen) ? [c.Desc, c.Open] : [c.Desc];
+
     return (
-        <div className={[g["col-sm-6"], g["col-md-4"]].join(" ")}>
-          <div className={c.Speaker}>
+        <div className={[g["col-sm-6"], g["col-md-4"], c.SpeakerWrapper].join(" ")}>
+          <div className={c.Speaker} onMouseLeave={() => this.speakerClickedHandler(false)}>
             <h4>{this.props.name}</h4>
-            <div className={c.Foto}>
+            <div className={c.Foto} onClick={() => this.speakerClickedHandler(true)}>
               {this.state.fot ?
                   <img src={this.state.fot} alt={`Zdjęcie ${this.props.name}`}/> : null
               }
+
+            </div>
+            <div className={classes.join(" ")} onClick={() => this.speakerClickedHandler(false)}>
+              <h3>{this.props.name}</h3>
+              {this.props.desc}
             </div>
 
           </div>
