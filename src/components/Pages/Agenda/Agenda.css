@@ -1,3 +1,39 @@
 .Agenda {
     margin-bottom: 100px;
 }
+.Agenda .Module {
+    margin-bottom: 24px;
+}
+.Agenda .Module h3 {
+    color: white;
+    background-color: rgb(236, 105, 106);
+    padding: 2px 8px 0;
+    display: inline-block;
+}
+
+.Agenda .Module h4 {
+    margin: 8px 0;
+}
+
+.Agenda .Module h4.white {
+    margin: 8px 0 4px;
+    background-color: white;
+    padding: 2px 8px 0;
+    display: inline-block;
+}
+
+.Agenda .Module p {
+    margin-bottom: 8px
+}
+
+.Agenda .Module ul, .Agenda .Module ol {
+    margin-bottom: 8px;
+    padding-left: 1rem;
+}
+
+.Agenda .Cta {
+    color: white;
+    background-color:rgb(236, 105, 106);
+    border: 3px solid white;
+    padding: 8px 12px 4px;
+}

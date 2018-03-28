@@ -16,8 +16,11 @@ class icon extends React.Component {
   }
 
   render() {
+    const classes = (!this.props.agenda) ?
+        [g["col-6"], g["col-sm-4"], g["col-md-3"], g["col-lg-2"]].join(" ") :
+        null ;
     return (
-        <div className={[g["col-6"], g["col-sm-4"], g["col-md-3"], g["col-lg-2"]].join(" ")}>
+        <div className={classes}>
           <div className={c.Icon}>
             <img src={this.state.img} alt={this.props.title}/>
             <div className={c.Title}>{this.props.title}</div>

@@ -28,7 +28,7 @@ class Information extends Component {
                 4 MODUŁY
               </div>
               <div className={[g["col-6"], g["col-sm-4"], g["col-xl-3"], c.Second].join(" ")}>
-                <span>do 30 czerwca 2018</span>
+                <span>do 30 wrzesnia 2018</span>
               </div>
               <div className={[g["col-6"], g["col-sm-4"], g["col-xl-3"], c.Third].join(" ")}>
                 <span>960 PLN</span>
@@ -41,7 +41,7 @@ class Information extends Component {
                 1 MODUŁY
               </div>
               <div className={[g["col-6"], g["col-sm-4"], g["col-xl-3"], c.Second].join(" ")}>
-                <span>do 30 czerwca 2018</span>
+                <span>do 30 wrzesnia 2018</span>
               </div>
               <div className={[g["col-6"], g["col-sm-4"], g["col-xl-3"], c.Third].join(" ")}>
                 <span>320 PLN</span>
@@ -54,7 +54,7 @@ class Information extends Component {
                 1 MODUŁY
               </div>
               <div className={[g["col-6"], g["col-sm-4"], g["col-xl-3"], c.Second].join(" ")}>
-                <span>od 1 lipca 2018 do 30 października 2018</span>
+                <span>od 1 pazdziernika do 14 listopada 2018</span>
               </div>
               <div className={[g["col-6"], g["col-sm-4"], g["col-xl-3"], c.Third].join(" ")}>
                 <span>370 PLN</span>
@@ -67,7 +67,7 @@ class Information extends Component {
                 1 MODUŁY
               </div>
               <div className={[g["col-6"], g["col-sm-4"], g["col-xl-3"], c.Second].join(" ")}>
-                <span>od 1 listopada 2018</span>
+                <span>od 15 listopada 2018</span>
               </div>
               <div className={[g["col-6"], g["col-sm-4"], g["col-xl-3"], c.Third].join(" ")}>
                 <span>400 PLN</span>
