@@ -1,6 +1,7 @@
 .Speaker {
     margin-bottom: 30px;
 }
+
 .Speaker .Foto {
     height: 150px;
     width: 150px;
@@ -8,6 +9,48 @@
     position: relative;
     cursor: pointer;
 }
+
+.Speaker .Foto .Loader {
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background-color: rgb(236, 105, 106);
+    opacity: 1;
+    transition: opacity .5s;
+}
+.Speaker .Foto .Loader.Load {
+    opacity: 0;
+}
+
+.lds-dual-ring {
+    display: inline-block;
+    width: 64px;
+    height: 64px;
+    transform: translate(-50%,-50%);
+    margin: 55%;
+}
+.lds-dual-ring:after {
+    content: " ";
+    display: block;
+    width: 46px;
+    height: 46px;
+    margin: 1px;
+    border-radius: 50%;
+    border: 5px solid #fff;
+    border-color: #fff transparent #fff transparent;
+    animation: lds-dual-ring 1.2s linear infinite;
+}
+@keyframes lds-dual-ring {
+    0% {
+        transform: rotate(0deg);
+    }
+    100% {
+        transform: rotate(360deg);
+    }
+}
+
 .Speaker .Foto img {
     height: 100%;
     width: 100%;
@@ -52,19 +95,22 @@
     .SpeakerWrapper .Desc:after {
         display: none;
     }
+
     .SpeakerWrapper h4 {
         height: 48px;
     }
+
     .SpeakerWrapper .Desc {
         position: absolute;
         z-index: 1;
         top: auto;
-        margin-top:-2px;
+        margin-top: -2px;
         width: 510px;
         max-height: 200px;
         left: 16px;
-        padding-top:30px;
+        padding-top: 30px;
     }
+
     .SpeakerWrapper .Desc:before {
         content: "";
         position: absolute;
@@ -76,9 +122,11 @@
         border-right: 30px solid transparent;
         border-top: 25px solid white;
     }
+
     .SpeakerWrapper:nth-child(2n + 0) .Desc {
         left: -254px;
     }
+
     .SpeakerWrapper:nth-child(2n + 0) .Desc:before {
         left: 314px;
     }
@@ -93,21 +141,27 @@
     .SpeakerWrapper .Desc {
         width: 690px;
     }
+
     .SpeakerWrapper:nth-child(3n - 2) .Desc {
         left: 16px;
     }
+
     .SpeakerWrapper:nth-child(3n - 2) .Desc:before {
         left: 45px;
     }
+
     .SpeakerWrapper:nth-child(3n - 1) .Desc {
         left: -224px;
     }
+
     .SpeakerWrapper:nth-child(3n - 1) .Desc:before {
         left: 284px;
     }
+
     .SpeakerWrapper:nth-child(3n + 0) .Desc {
         left: -464px;
     }
+
     .SpeakerWrapper:nth-child(3n + 0) .Desc:before {
         left: 524px;
     }
@@ -117,29 +171,37 @@
     .Speaker .Foto {
         border-width: 3px;
     }
+
     .Speaker h4 {
         height: 38px;
         margin-top: 10px;
     }
+
     .SpeakerWrapper .Desc {
         width: 930px;
         max-height: 238px;
     }
+
     .SpeakerWrapper:nth-child(3n - 2) .Desc {
         left: 16px;
     }
+
     .SpeakerWrapper:nth-child(3n - 2) .Desc:before {
         left: 45px;
     }
+
     .SpeakerWrapper:nth-child(3n - 1) .Desc {
         left: -304px;
     }
+
     .SpeakerWrapper:nth-child(3n - 1) .Desc:before {
         left: 364px;
     }
+
     .SpeakerWrapper:nth-child(3n + 0) .Desc {
         left: -624px;
     }
+
     .SpeakerWrapper:nth-child(3n + 0) .Desc:before {
         left: 684px;
     }
@@ -149,21 +211,27 @@
     .SpeakerWrapper .Desc {
         width: 1110px;
     }
+
     .SpeakerWrapper:nth-child(3n - 2) .Desc {
         left: 16px;
     }
+
     .SpeakerWrapper:nth-child(3n - 2) .Desc:before {
         left: 45px;
     }
+
     .SpeakerWrapper:nth-child(3n - 1) .Desc {
         left: -364px;
     }
+
     .SpeakerWrapper:nth-child(3n - 1) .Desc:before {
         left: 424px;
     }
+
     .SpeakerWrapper:nth-child(3n + 0) .Desc {
         left: -744px;
     }
+
     .SpeakerWrapper:nth-child(3n + 0) .Desc:before {
         left: 804px;
     }
