@@ -4,7 +4,7 @@ import c from './Agenda.css'
 const information = [
   {
     icon: "01",
-    iconTitle: 'Implanty i&nbsp;tkanki miękkie',
+    iconTitle: 'Implanty i tkanki miękkie',
     title: "PODSTAWY PLANOWANIA LECZENIA IMPLANTOPROTETYCZNEGO",
     author: "prof. dr hab. MAŁGORZATA PIETRUSKA",
     desc: (<div>
@@ -47,7 +47,7 @@ const information = [
 
   {
     icon: "01",
-    iconTitle: "Implanty i&nbsp;tkanki miękkie",
+    iconTitle: "Implanty i tkanki miękkie",
     title: "LECZENIE IMPLANTOPROTETYCZNE - POPRAWA JAKOŚCI ŻYCIA, CZY ZAGROŻENIE DLA PACJENTA ? MOŻLIWOŚCI I OGRANICZENIA IMPLANTOLOGI ZĘBOWEJ",
     author: "dr hab. n. med. Piotr MAJEWSKI",
     desc: (<div>
@@ -129,7 +129,7 @@ const information = [
 
   {
     icon: "02",
-    iconTitle: "DSD i&nbsp;ortodoncja",
+    iconTitle: "DSD i ortodoncja",
     title: "„THE SMILE JOURNEY” - TWORZENIE NATURALNIE PIĘKNYCH UŚMIECHÓW Z WYKORZYSTANIEM TECHNOLOGI CYFROWYCH",
     author: "dr n. med. BARTOSZ CERKASKI",
     desc: (<div>
@@ -166,6 +166,20 @@ const information = [
         </li>
         <li>Potrzebujących skutecznych i&nbsp;sprawdzonych rozwiązań do osiągnięcia sukcesu swojej praktyki</li>
       </ul>
+    </div>)
+  },
+
+  {
+    icon: "02",
+    iconTitle: "DSD i ortodoncja",
+    title: "Optymalizacja leczenia ortodontycznego",
+    author: "",
+    desc: (<div>
+      <p>Wykład ma na celu przedstawienie możliwości jakie daje pełna digitalizacja w ortodoncji.</p>
+      <p>Podstawowym tematem jest uzupełnienie diagnostyki ortodontycznej poprzez wirtualizację setupu diagnostycznego oraz leczenia ortodontycznego poprzez zastosowanie alignerów w systemie Invisalign, na tle wątków pobocznych takich jak: administracja i&nbsp;przechowywanie danych.</p>
+      <p>Autor przedstawia, jak się zmieniła i&nbsp;zmienia się jego praktyka, zarówno w procesie planowania, leczenia, jak i&nbsp;komunikacji z Pacjentem. Uwzględniony zostanie aspekt komunikacji interdyscyplinarnej.</p>
+      <p>Przedstawiony zostanie subiektywny bilans zysków i&nbsp;strat, związanych z opisanymi zmianami.</p>
+      <p>Całość uzupełniona przykładami o różnej gradacji problemu.</p>
     </div>)
   }
 

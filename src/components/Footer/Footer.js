@@ -13,7 +13,7 @@ const footer = () => (
         </div>
         <div className={c.OrbidentiInfo}>
           <h4>dla</h4>
-          <p style={{color: 'rgb(16,183,182)'}}>OrbiDenti sp.z o.o</p>
+          <p style={{color: 'rgb(16,183,182)'}}>OrbiDenti sp. z o.o</p>
         </div>
         <img className={c.Orbidenti} src={orbidenti} alt="Orbidenti"/>
       </div>

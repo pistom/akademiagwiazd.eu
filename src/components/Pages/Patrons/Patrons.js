@@ -6,6 +6,7 @@ import invisalign from '../../../assets/images/logos/invisalign.svg';
 import dentalradio from '../../../assets/images/logos/dental_radio.svg';
 import psi from '../../../assets/images/logos/psi.svg';
 import aod from '../../../assets/images/logos/aod.svg';
+import dentsplySirona from '../../../assets/images/logos/dentsply_sirona.png';
 
 class Patrons extends Component {
   componentDidMount(){
@@ -23,6 +24,20 @@ class Patrons extends Component {
     return (
         <div className={c.Patrons}>
           <div className={g.container}>
+            <h4 key="h1" className="pageTitle">
+              SPONSORZY
+            </h4>
+            <div className={g.row}>
+              <div className={[g["col-lg-4"]].join(" ")}>
+                <h5>GŁÓWNY SPONSOR AKADEMII GWIAZD</h5>
+                <div className={c.Box}
+                     onClick={() => {this.logoClickHandler('http://www.dentsply.pl/')}}
+                >
+                  <img src={dentsplySirona} style={{maxWidth: '100%', maxHeight: 'auto'}} alt="Dentsply Sirona"/>
+                </div>
+              </div>
+            </div>
+
             <h4 key="h1" className="pageTitle">
               Partnerzy
             </h4>

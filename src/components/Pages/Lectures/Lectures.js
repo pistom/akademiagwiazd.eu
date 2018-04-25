@@ -46,7 +46,10 @@ class Lectures extends Component {
       },
       {
         id: 4, name: "dr ALEKSANDER MAJ", fot: 'maj.jpg', desc: (<div>
-          <p>Więcej informacji wkrótce...</p>
+          <p>lek. dent. Aleksander Maj ukończył Śląską Akademię Medyczną w 2000 roku. Od samego początku związany ze specjalistycznym centrum Medycznym Reden MAYO-DENT, którego w roku 2012 stał się współwłaścicielem.</p>
+          <p>Wieloletnie zaangażowanie w endodoncję i klasyczną protetykę, odbyte pełne programy szkoleniowe z dziedzin periodontologii i implantologii pozwoliły wykrystalizować obecne dziedziny fascynacji: protetykę małoinwazyjną (adhezyjną), implantoprotetykę oraz ortodoncję.</p>
+          <p>Autor wielu publikacji w czasopismach stomatologicznych. Dobra znajomość języka angielskiego i francuskiego ułatwia porozumiewanie się na międzynarodowych kongresach i zagranicznych szkoleniach. Od 2008 roku prowadzi wykłady, szkolenia i warsztaty z zakresu protetyki. W swoim dorobku ma liczne wystąpienia na zjazdach, szkoleniach i konferencjach. Współzałożyciel forum www.dentopraktyk.pl oraz współtwórca Akademii Kompozytu.</p>
+          <p>W latach 2016/2017 wykładowca Śląskiego Uniwersytetu Medycznego na Katedrze Stomatologii Zachowawczej z Endodoncją gdzie prowadził zajęcia kliniczne, przedkliniczne oraz wykłady dla studentów 4 i 5 roku studiów. Obecnie prowadzi badania naukowe porównujące właściwości biomechaniczne materiałów kompozytowych używanych w stomatologii. Interesuje się fotografią, kolarstwem górskim i kitesurfingiem.</p>
         </div>)
       },
       {
@@ -83,7 +86,9 @@ class Lectures extends Component {
       },
       {
         id: 7, name: "dr n.med. MICHAŁ TARNAWSKI", fot: 'tarnawski.jpg', desc: (<div>
-          <p>Więcej informacji wkrótce...</p>
+          <p>Od 1994 roku pracuję w poradni ortodontycznej, najpierw jako asystent na uczelni, a po uzyskaniu specjalizacji w 2000 r. również samodzielnie. Także mój doktorat w 2002 r. dotyczył zagadnień związanych z  ortodoncją - pojmowaną szerzej jako ortopedia szczękowa,  z leczenia pacjentów z połowiczym niedorozwojem twarzy.</p>
+          <p>Ortodoncja dla mnie bez końca jest wielką fascynacją, dzięki której łączy się stomatologia z fizyką i sztukami pięknymi. Zarówno kontakt z pacjentem, jak i śledzenie, podążanie za nowinkami mojej specjalności stanowią dla mnie niewyczerpane źródło satysfakcii z pracy.</p>
+          <p>Ortodoncja - dobry zgryz, piękny uśmiech</p>
         </div>)
       },
       {
