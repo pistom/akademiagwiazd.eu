@@ -28,9 +28,9 @@ class icon extends React.Component {
             </div>
             <img src={this.state.img} alt={this.props.title}/>
             <div className={c.Title}>
-              <p style={{color: "black", fontSize: ".75em", margin: "0" }}>Panel {this.props.panel}</p>
+              {this.props.panel ? <p style={{color: "black", fontSize: ".75em", margin: "0" }}>Panel {this.props.panel}</p> : null}
               {this.props.title}
-              <p style={{color: "black", fontSize: ".75em", margin: "0" }}>{this.props.author}</p>
+              {this.props.panel ? <p style={{color: "black", fontSize: ".75em", margin: "0" }}>{this.props.author}</p> : null}
             </div>
           </div>
         </div>

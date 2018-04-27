@@ -22,10 +22,10 @@ class Agenda extends Component {
             </h4>
             {agenda.map((i, index) => (
                 <div key={index} className={[[g.row], [c.Module]].join(" ")}>
-                  <div className={[g["col-sm-4"], g["col-md-3"], g["col-lg-2"]].join(" ")}>
+                  <div className={[g["col-sm-12"], g["col-md-3"], g["col-lg-3"]].join(" ")}>
                     <Icon file={i.icon} title={i.iconTitle} agenda />
                   </div>
-                  <div className={[g["col-sm-8"], g["col-md-9"], g["col-lg-10"]].join(" ")}>
+                  <div className={[g["col-sm-12"], g["col-md-9"], g["col-lg-9"]].join(" ")}>
                     <h3>{i.title}</h3>
                     <h4>{i.author}</h4>
                     {i.desc}
