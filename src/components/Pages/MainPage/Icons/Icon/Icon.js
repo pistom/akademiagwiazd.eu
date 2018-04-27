@@ -17,15 +17,21 @@ class icon extends React.Component {
 
   render() {
     const classes = (!this.props.agenda) ?
-        [g["col-6"], g["col-sm-4"], g["col-md-3"], g["col-lg-2"]].join(" ") :
-        null ;
+        [g["col-6"], g["col-sm-6"], g["col-md-3"], g["col-lg-3"]].join(" ") :
+        null;
     const loader = (this.state.img) ? [c.Loader, c.Load] : [c.Loader];
     return (
         <div className={classes}>
           <div className={c.Icon}>
-            <div className={loader.join(" ")}><div className={c["lds-dual-ring"]} /></div>
+            <div className={loader.join(" ")}>
+              <div className={c["lds-dual-ring"]}/>
+            </div>
             <img src={this.state.img} alt={this.props.title}/>
-            <div className={c.Title}>{this.props.title}</div>
+            <div className={c.Title}>
+              <p style={{color: "black", fontSize: ".75em", margin: "0" }}>Panel {this.props.panel}</p>
+              {this.props.title}
+              <p style={{color: "black", fontSize: ".75em", margin: "0" }}>{this.props.author}</p>
+            </div>
           </div>
         </div>
     )

@@ -86,13 +86,16 @@
         font-size: 1rem;
     }
     .Icon, .Icon:hover .Title {
-        width: 150px;
-        height: 150px;
+        width: 240px;
+        height: 240px;
     }
 }
 
 @media (min-width: 768px) {
-
+    .Icon, .Icon:hover .Title {
+        width: 150px;
+        height: 150px;
+    }
 }
 
 @media (min-width: 992px) {
@@ -100,8 +103,8 @@
         font-size: .9rem;
     }
     .Icon, .Icon:hover .Title {
-        width: 130px;
-        height: 130px;
+        width: 210px;
+        height: 210px;
         border-width: 3px;
         box-sizing: border-box;
     }
@@ -109,10 +112,10 @@
 
 @media (min-width: 1200px) {
     .Icon .Title {
-        font-size: 1.15rem;
+        font-size: 1.5rem;
     }
     .Icon, .Icon:hover .Title {
-        width: 160px;
-        height: 160px;
+        width: 255px;
+        height: 255px;
     }
 }
