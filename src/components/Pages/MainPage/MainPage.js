@@ -14,7 +14,7 @@ class MainPage extends Component {
         icons: [
           {file: "01", panel: 'A', title: 'Implanty i tkanki miękkie', autor: 'dr RADOSŁAW JADACH'},
           {file: "03", panel: 'B', title: 'Kompozyty', autor: 'dr ALEKSANDER MAJ'},
-          {file: "02", panel: 'C', title: 'DSD i ortodoncja', autor: 'dr n. med. BARTOSZ CERKASKI'},
+          {file: "07", panel: 'C', title: 'Stomatologia XXI wieku', autor: 'dr n. med. BARTOSZ CERKASKI'},
           {file: "04", panel: 'D', title: 'Medycyna estetyczna', autor: 'dr n. med. LIDIA MAJEWSKA'}
         ]
       },
@@ -23,7 +23,7 @@ class MainPage extends Component {
         icons: [
           {file: "01", panel: 'A', title: 'Implanty i tkanki miękkie', autor: 'dr RADOSŁAW JADACH'},
           {file: "03", panel: 'B', title: 'Kompozyty', autor: 'dr ALEKSANDER MAJ'},
-          {file: "02", panel: 'C', title: 'DSD i ortodoncja', autor: 'dr n. med. BARTOSZ CERKASKI'},
+          {file: "07", panel: 'C', title: 'Stomatologia XXI wieku', autor: 'dr n. med. BARTOSZ CERKASKI'},
           {file: "04", panel: 'D', title: 'Medycyna estetyczna', autor: 'dr n. med. LIDIA MAJEWSKA'}
         ]
       },
@@ -83,11 +83,11 @@ class MainPage extends Component {
             <h1 style={{margin: "10px auto 0"}}>SOBOTA, 1.12.2018</h1>
             <h2>{this.state.program.s1.info}</h2>
             <div className={[g.row, c.Icons].join(" ")}>
-              {this.state.program.p1.icons.map(icon => (
+              {this.state.program.s1.icons.map(icon => (
                   <Icon key={icon.id} file={icon.file} title={icon.title} author={icon.autor} panel={icon.panel}/>
               ))}
             </div>
-            <h2>{this.state.program.p2.info}</h2>
+            <h2>{this.state.program.s2.info}</h2>
             <div className={[g.row, c.Icons].join(" ")}>
               {this.state.program.s2.icons.map(icon => (
                   <Icon key={icon.id} file={icon.file} title={icon.title} author={icon.autor} panel={icon.panel}/>
