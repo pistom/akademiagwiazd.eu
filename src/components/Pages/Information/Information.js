@@ -73,6 +73,18 @@ class Information extends Component {
                 <span>400 PLN</span>
               </div>
             </div>
+
+            <div className={[g.row, c.Box].join(" ")} onClick={this.boxClickedHandler}>
+              <div className={[g["col-12"], g["col-sm-4"], g["col-xl-3"], c.First].join(" ")}>
+                STUDENCI <br/>&nbsp;
+              </div>
+              <div className={[g["col-6"], g["col-sm-4"], g["col-xl-3"], c.Second].join(" ")}>
+                <span>do 31 października 2018</span>
+              </div>
+              <div className={[g["col-6"], g["col-sm-4"], g["col-xl-3"], c.Third].join(" ")}>
+                <span>350 PLN</span>
+              </div>
+            </div>
           </div>
         </div>
     );
