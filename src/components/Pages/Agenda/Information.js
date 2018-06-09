@@ -130,7 +130,7 @@ const information = [
   {
     icon: "02",
     iconTitle: "DSD i ortodoncja",
-    title: "„THE SMILE JOURNEY” - TWORZENIE NATURALNIE PIĘKNYCH UŚMIECHÓW Z WYKORZYSTANIEM TECHNOLOGI CYFROWYCH",
+    title: "„THE SMILE JOURNEY” - TWORZENIE NATURALNIE PIĘKNYCH UŚMIECHÓW Z WYKORZYSTANIEM TECHNOLOGII CYFROWYCH",
     author: "dr n. med. BARTOSZ CERKASKI",
     desc: (<div>
       <p>Odkryj Koncept DSD i&nbsp;wykorzystaj korzyści Emocjonalnej, Interdyscyplinarnej i&nbsp;Cyfrowej Stomatologii. Dynamiczne
