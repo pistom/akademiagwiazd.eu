@@ -76,7 +76,8 @@ class Information extends Component {
 
             <div className={[g.row, c.Box].join(" ")} onClick={this.boxClickedHandler}>
               <div className={[g["col-12"], g["col-sm-4"], g["col-xl-3"], c.First].join(" ")}>
-                STUDENCI <br/>&nbsp;
+                STUDENCI <br/>
+                4 MODUŁY
               </div>
               <div className={[g["col-6"], g["col-sm-4"], g["col-xl-3"], c.Second].join(" ")}>
                 <span>do 31 października 2018</span>
