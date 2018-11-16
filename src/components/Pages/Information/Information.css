@@ -12,6 +12,24 @@
     color: white;
 }
 
+.Box2 p {
+    display: block;
+    width: 100%;
+}
+
+.Box2 .Bold {
+    background-color: rgb(236, 105, 106);
+    color: white;
+    margin: 0 10px;
+    padding: 0 5px;
+    display: inline-block;
+}
+
+.Box2 .Red {
+    color: rgb(236, 105, 106);
+    margin: 0 6px;
+}
+
 .Box > div {
     box-sizing: border-box;
     padding: 6px 12px 0;
